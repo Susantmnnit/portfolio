@@ -10,6 +10,8 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { useState, useEffect } from 'react';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import CodeOffIcon from '@mui/icons-material/CodeOff';
 
 
 export default function Home() {
@@ -77,7 +79,7 @@ export default function Home() {
 
       {/* Navbar */}
       <header className={styles.navbar}>
-        <nav >
+        <nav style={{position:'fixed',color:'black'}}>
           <ul className={styles.navLinks}>
             <li><a href="#home"> &lt; Mohd / &gt; </a></li>
             <li><a href="#projects">Projects</a></li>
@@ -403,12 +405,12 @@ export default function Home() {
             <a className="text-decoration-none" href="mailto:khansaif59@gmail.com">khansaif59@gmail.com</a>.
           </p>
           <div>
-            <i className="fas fa-code" style={{ fontSize: '24px' }}></i> with{' '}
-            <i className="fas fa-heart" style={{ fontSize: '24px', color: 'red' }}></i> by{' '}
+            <CodeOffIcon/> with{' '}
+            <FavoriteIcon/> by{' '}
             <a rel="noopener" href="https://github.com/Mohd-shahid-iqbal/myportfolio.git" aria-label="My GitHub">
-              <span className="badge bg-dark">Mohd Shahid Iqbal</span>
+              <span className="badge bg-dark" style={{fontSize:'18px'}}><b>Mohd Shahid Iqbal</b></span>
             </a>{' '}
-            using <i className="fab fa-react" style={{ fontSize: '24px' }}></i>
+            using <i className="fab fa-react" style={{ fontSize: '20px' }}>Next.js</i>
           </div>
           <p style={{ marginTop: '10px' }}>
             <small>&copy; 2024 All rights reserved.</small>
