@@ -83,7 +83,7 @@ export default function Home() {
           <ul className={styles.navLinks}>
             <li><a href="#home"> &lt; Mohd / &gt; </a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#resume">Resume</a></li>
+            <li><a href="https://drive.google.com/file/d/1Q206K8NM-IdCMdhal5scUSEm5ZIzZakg/view?usp=drive_link">Resume</a></li>
             <li><a href="#about">About Me</a></li>
             <li><a href="#skills">Skills</a></li>
           </ul>
@@ -134,7 +134,7 @@ export default function Home() {
             <h2 style={{fontSize:'50px'}}>About Me</h2>
             <p style={{fontSize:'1.25rem',fontWeight:'300',textAlign:'center',color:'#857f7f'}}>My name is Mohd Shahid Iqbal. I’m a post-graduate of 2020 from Jamia hamdard University at New Delhi with a degree in Masters of Computer Application . I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.</p>
             <a href="https://drive.google.com/file/d/1Q206K8NM-IdCMdhal5scUSEm5ZIzZakg/view?usp=drive_link">
-              
+              <Button style={{ border: '1px solid black', color: 'black', margin: '10px' }}>Resume</Button>
             </a>
           </div>
         </div>
